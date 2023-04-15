@@ -1,0 +1,202 @@
+:root {
+  --primary-color: #212529;
+}
+
+body {
+  background-color: var(--primary-color, black) !important;
+  font-family: "League Spartan", sans-serif !important;
+  display: flex;
+  margin: 0px;
+}
+
+i {
+  margin: 0.3rem;
+}
+nav {
+  display: inline-flex;
+  flex-wrap: nowrap !important;
+}
+
+.mainbody {
+  padding: 0px !important;
+}
+
+.content {
+  display: flex;
+  gap: 2rem;
+}
+
+.fuzlogo {
+  width: 4rem;
+  height: 4rem;
+  padding: 0 0 !important;
+  margin: 0 0 !important;
+  border-radius: 100%;
+}
+
+.contact {
+  width: 500px;
+  padding: 25px;
+  background-color: rgb(199, 199, 199);
+  border-radius: 15px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 1px 1px 20px;
+  margin: 50px;
+}
+
+.title-contact {
+  text-align: center;
+  font-size: 22px;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+}
+
+label {
+  display: inline-block;
+}
+
+.contact-content {
+  border: solid 1px black;
+  padding: 10px;
+  width: 450px;
+  margin-bottom: 20px;
+}
+
+.contact label {
+  margin: 0px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.contact-content,
+textarea {
+  border: 1px solid black;
+  outline: none;
+  width: 450px;
+}
+
+.mapita {
+  color: white;
+  margin-top: 70px;
+}
+
+#submit {
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 92, 197),
+    rgb(90, 20, 220)
+  );
+  width: 100%;
+  border: none;
+  padding: 15px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+#submit:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 80, 172),
+    rgb(80, 19, 195)
+  );
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: beige;
+  color: black;
+  padding: 11px;
+  width: 100%;
+  justify-content: center;
+}
+
+.copyrigth {
+  font-size: 22px !important;
+  font-weight: bold !important;
+  margin: 0;
+}
+
+.log img {
+  width: 150px;
+  height: 50px;
+}
+
+.col-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.log {
+  gap: 200px;
+}
+
+.fuz-logo{
+    width: 100px;
+    border-radius: 100%;
+    margin-right: 50px;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redes{
+    width: 50px;
+    height: 50px;
+}
+
+.footer {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+
+.footer .logo img {
+  max-width: 150px;
+  margin-bottom: 30px;
+}
+
+.footer .social-icons {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.footer .social-icons a {
+  color: #333;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+  color: #007bff;
+}
+
+.footer .payment-methods img {
+  max-width: 150px;
+}
+
+.footer .contact-info h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.footer .contact-info p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer .contact-info i {
+  margin-right: 10px;
+}
+
+/* Estilos para el texto de copyright */
+footer .copyright {
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    margin-top: 20px;
+  }

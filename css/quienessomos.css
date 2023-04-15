@@ -1,0 +1,44 @@
+nav{
+    background-color: rgb(32, 190, 32);
+}
+footer{
+    background-color: rgb(32, 190, 32);
+}
+body{
+    font-family: 'League Spartan', sans-serif !important;
+}
+
+h4{
+   padding: 1%;
+   text-decoration: underline;
+   color:  #34393c;
+}
+
+h2{
+    position: relative;
+    text-align: center;
+}
+
+.historia{
+    position: relative;
+    text-align: center;
+}
+
+.Staff {
+    padding: 1%;
+    position: relative;
+    text-align: start;
+    color:  #34393c;
+}
+img{
+    width: 200x;
+    height: 200px;
+    border-radius: 50%;
+   
+}
+span{
+    font-weight: bold;
+}
+.ro{
+    border-radius: 50% !important;
+}

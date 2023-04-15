@@ -1,0 +1,136 @@
+body {
+    height: 100vh;
+  }
+  
+  .history-container {
+    height: 86.5vh;
+    display: flex;
+  }
+  
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .map {
+    height: 10%;
+  }
+  
+  .data {
+    height: 85%;
+    background-color: #d9d9d9;
+  }
+  
+  .data::-webkit-scrollbar {
+    width: 10px;
+    background-color: #d9d9d9;
+  }
+  
+  .data::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+  }
+  
+  .row {
+    margin: 0 !important;
+  }
+  
+  .label-green {
+    position: relative;
+  }
+  
+  .label-green::before {
+    content: " ";
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    background-color: #13f21b55;
+    left: -10px;
+    top: 5px;
+  }
+  
+  .label-red {
+    position: relative;
+  }
+  
+  .label-red::before {
+    content: " ";
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    background-color: #f2131355;
+    left: -10px;
+    top: 5px;
+  }
+  
+  .label-yellow {
+    position: relative;
+  }
+  
+  .label-yellow::before {
+    content: " ";
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    background-color: #f2eb1355;
+    left: -10px;
+    top: 5px;
+  }
+  
+  .no-padding {
+    padding: 0 !important;
+    overflow-y: auto;
+  }
+  
+  .cell {
+    border: 1px solid black;
+    width: 200px;
+    height: 150px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cell:hover {
+    cursor: pointer;
+  }
+  
+  span {
+    flex-grow: 1;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .link {
+    flex-grow: 2;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--primary-color);
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .fill-day {
+    background-color: #f2131355;
+  }
+  
+  .fill-day:hover a {
+    color: red;
+  }
+  
+  .active-day {
+    background-color: #13f21b55;
+  }
+  
+  .active-day a:hover {
+    color: green;
+  }
+  
+  .atention-day {
+    background-color: #f2eb1355;
+  }
+  
+  .atention-day:hover a {
+    color: yellow;
+  }
+  

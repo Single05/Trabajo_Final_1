@@ -1,0 +1,19 @@
+body{
+    font-family: 'League Spartan', sans-serif !important;
+    
+}
+.Formulariotf {
+    margin-top: 50px!important;
+    cursor: pointer;
+}
+.butform{
+    border-radius: 0.5rem !important;
+}
+.butform:hover {
+    transform: scale(1.1);
+}
+.btform {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly !important;
+}

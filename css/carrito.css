@@ -1,0 +1,214 @@
+:root {
+  --primary-color: #212529;
+  }
+  
+  body {
+  font-family: "League Spartan", sans-serif;
+  display: flex;
+  margin: 0;
+  }
+  
+  i {
+  margin: 0.3rem;
+  }
+  
+  .fuzlogo {
+  width: 4rem;
+  height: 4rem;
+  padding: 0;
+  margin: 0;
+  border-radius: 100%;
+  }
+  
+  nav {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  }
+  
+  .container-fluid {
+  padding: 0;
+  }
+  
+  table {
+  margin: 0 auto;
+  margin-bottom: 60px;
+  border-collapse: collapse;
+  width: 100%;
+  height: 80vh;
+  background-color: #1c1c1c; /* fondo oscuro /
+  border: 2px solid #000000; / borde negro de 2px */
+  }
+  
+  th,
+  td {
+  text-align: center;
+  padding: 15px;
+  color: #fff; /* letras blancas */
+  }
+  
+  th {
+  background-color: #333333; /* gris oscuro */
+  }
+  
+  tr:nth-child(even) {
+  background-color: #444444; /* gris oscuro */
+  }
+  
+  tr:nth-child(odd) {
+  background-color: #2a2a2a; /* gris oscuro más oscuro */
+  }
+  
+  img {
+  height: 80px;
+  }
+  
+  button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  }
+  
+  button:hover {
+  background-color: #d32f2f;
+  }
+  
+  .finalizar-btn {
+  background-color: #f44336;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  }
+  
+  .finalizar-btn:hover {
+  background-color: #3e8e41;
+  }
+  
+  .total-text {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+  }
+  
+  .total-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: green;
+  }
+  
+  .footer {
+  display: flex;
+  align-items: center;
+  background-color: beige;
+  color: black;
+  padding: 11px;
+  width: 100%;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  }
+  
+  .copyrigth {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+  }
+  
+  .log img {
+  width: 150px;
+  height: 50px;
+  }
+  
+  .col-4 {
+  display: flex;
+  justify-content: center;
+  }
+  
+  .log {
+  gap: 200px;
+  }
+  
+  .fuz-logo {
+  width: 100px;
+  border-radius: 100%;
+  margin-right: 50px;
+  }
+  
+  .middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .redes {
+  width: 50px;
+  height: 50px;
+  }
+ 
+
+  @media screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+    
+    .fuz-logo{
+      width: 50px;
+      margin-right: 20px;
+    }
+  
+    .log img {
+      width: 120px;
+      height: 40px;
+    }
+    
+    .middle{
+      flex-direction: column;
+    }
+  
+    .redes{
+      margin-top: 20px;
+    }
+  
+    table {
+      width: 100%;
+      height: auto;
+    }
+    
+    .total-text {
+      font-size: 16px;
+      margin-right: 5px;
+    }
+    
+    .total-price {
+      font-size: 16px;
+    }
+    
+    .finalizar-btn {
+      font-size: 14px;
+      padding: 5px 10px;
+      margin-left: 5px;
+    }
+  
+    .col-4{
+      width: 100%;
+      justify-content: space-evenly;
+    }
+  
+    .log {
+      gap: 10px;
+    }
+    
+    footer {
+      font-size: 12px;
+    }
+  }
+  
