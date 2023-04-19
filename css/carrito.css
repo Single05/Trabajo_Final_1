@@ -105,56 +105,69 @@
   color: green;
   }
   
-  .footer {
-  display: flex;
-  align-items: center;
-  background-color: beige;
-  color: black;
-  padding: 11px;
-  width: 100%;
-  justify-content: center;
-  position: absolute;
-  bottom: 0;
-  }
-  
-  .copyrigth {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 0;
-  }
-  
-  .log img {
-  width: 150px;
-  height: 50px;
-  }
-  
-  .col-4 {
-  display: flex;
-  justify-content: center;
-  }
-  
-  .log {
-  gap: 200px;
-  }
-  
-  .fuz-logo {
-  width: 100px;
-  border-radius: 100%;
-  margin-right: 50px;
-  }
-  
-  .middle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  }
-  
-  .redes {
-  width: 50px;
-  height: 50px;
-  }
- 
+  /* css footer */
 
+.footer {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+
+.footer .logo img {
+  max-width: 150px;
+  margin-bottom: 30px;
+}
+
+.footer .social-icons {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.footer .social-icons a {
+  color: #333;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+  color: #007bff;
+}
+
+.footer .payment-methods-section {
+  text-align: center;
+}
+.footer .payment-methods img {
+  max-width: 70px;
+  align-content: center;
+  padding-top: 7%;
+  
+}
+
+.footer .contact-info h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-left: 45%;
+ 
+}
+
+.footer .contact-info p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding-left: 45%;
+  
+}
+
+.footer .contact-info i {
+  margin-right: 10px;
+}
+
+/* Estilos para el texto de copyright */
+footer .copyright {
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    margin-top: 20px;
+  }
   @media screen and (max-width: 600px) {
     body {
       font-size: 14px;
