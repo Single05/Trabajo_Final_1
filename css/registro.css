@@ -1,13 +1,16 @@
 body{
     font-family: 'League Spartan', sans-serif !important;
-    
+    background-color: #333 !important;
 }
 .Formulariotf {
-    margin-top: 50px!important;
+    margin: 100px;
     cursor: pointer;
 }
+.button {
+    color: #c4c2c2 !important;
+}
 .butform{
-    border-radius: 0.5rem !important;
+    border-radius: 0.7rem !important;
 }
 .butform:hover {
     transform: scale(1.1);
@@ -17,3 +20,54 @@ body{
     flex-direction: row;
     justify-content: space-evenly !important;
 }
+.footer {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+  }
+  
+  
+  .footer .logo img {
+    max-width: 150px;
+    margin-bottom: 30px;
+  }
+  
+  .footer .social-icons {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .footer .social-icons a {
+    color: #333;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer .social-icons a:hover {
+    color: #007bff;
+  }
+  
+  .footer .payment-methods img {
+    max-width: 150px;
+  }
+  
+  .footer .contact-info h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer .contact-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .footer .contact-info i {
+    margin-right: 10px;
+  }
+  
+  /* Estilos para el texto de copyright */
+  footer .copyright {
+      text-align: center;
+      font-size: 14px;
+      color: #999;
+      margin-top: 20px;
+    }
