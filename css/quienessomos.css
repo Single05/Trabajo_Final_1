@@ -1,9 +1,7 @@
 nav{
     background-color: rgb(32, 190, 32);
 }
-footer{
-    background-color: rgb(32, 190, 32);
-}
+
 body{
     font-family: 'League Spartan', sans-serif !important;
 }
@@ -30,15 +28,73 @@ h2{
     text-align: start;
     color:  #34393c;
 }
-img{
-    width: 200x;
-    height: 200px;
-    border-radius: 50%;
-   
-}
+
 span{
     font-weight: bold;
 }
 .ro{
     border-radius: 50% !important;
 }
+/* css footer */
+
+.footer {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+
+.footer .logo img {
+  max-width: 150px;
+  margin-bottom: 30px;
+}
+
+.footer .social-icons {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.footer .social-icons a {
+  color: #333;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+  color: #007bff;
+}
+
+.footer .payment-methods-section {
+  text-align: center;
+}
+.footer .payment-methods img {
+  max-width: 70px;
+  align-content: center;
+  padding-top: 7%;
+  
+}
+
+.footer .contact-info h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-left: 45%;
+ 
+}
+
+.footer .contact-info p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding-left: 45%;
+  
+}
+
+.footer .contact-info i {
+  margin-right: 10px;
+}
+
+/* Estilos para el texto de copyright */
+footer .copyright {
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    margin-top: 20px;
+  }

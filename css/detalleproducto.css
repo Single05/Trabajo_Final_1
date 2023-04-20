@@ -1,61 +1,114 @@
-body{
-    display: flex !important;
+body {
+  display: flex !important;
 }
 
-.contenedorprinc{
-    background-color: white;
-    border: 1px solid black;
-    height: 60%;
+.contenedorprinc {
+  background-color: white;
+  border: 1px solid black;
+  height: 60%;
 }
 
-.product{
-    margin-top: 10%;
-    display: flex !important;
-    align-items: center!important;
-    justify-content: center !important;    
+.product {
+  margin-top: 10%;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
-.cepillo{
-    display: flex !important;
-    width: 100%;
-    height: 100%;
-    border: 0.1rem solid black;
-    background-color: gainsboro;
+.cepillo {
+  display: flex !important;
+  width: 100%;
+  height: 100%;
+  border: 0.1rem solid black;
+  background-color: gainsboro;
 }
 
-
-.inputnumber{
-    height: 2.4rem;
-    border: none;
-    border-radius: 5px;
-    text-align: center;
-    background-color: darkgray;
+.inputnumber {
+  height: 2.4rem;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  background-color: darkgray;
 }
 
-.descripcontenedor{
-    flex-direction: column;
+.descripcontenedor {
+  flex-direction: column;
 }
 
-.descripcion{
-    font-weight: lighter;
+.descripcion {
+  font-weight: lighter;
 }
 
-.botoncarrito{
-    display: flex !important;
-    color: rgb(255, 255, 255) !important;
-    font-weight: bold !important;
-    margin-bottom: 1%;
-    height: 2.3rem;
-    text-align: center !important;
-    transition: 0.5s ease;
-
+.botoncarrito {
+  display: flex !important;
+  color: rgb(255, 255, 255) !important;
+  font-weight: bold !important;
+  margin-bottom: 1%;
+  height: 2.3rem;
+  text-align: center !important;
+  transition: 0.5s ease;
 }
 
-.botoncarrito:hover{
-    transform: scale(1.1);
+.botoncarrito:hover {
+  transform: scale(1.1);
 }
 
-footer{
-    margin-top: 8%;
-    height: 10% !important;
+/* css footer */
+
+.footer {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+.footer .logo img {
+  max-width: 150px;
+  margin-bottom: 30px;
+}
+
+.footer .social-icons {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.footer .social-icons a {
+  color: #333;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+  color: #007bff;
+}
+
+.footer .payment-methods-section {
+  text-align: center;
+}
+.footer .payment-methods img {
+  max-width: 70px;
+  align-content: center;
+  padding-top: 7%;
+}
+
+.footer .contact-info h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-left: 45%;
+}
+
+.footer .contact-info p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding-left: 45%;
+}
+
+.footer .contact-info i {
+  margin-right: 10px;
+}
+
+/* Estilos para el texto de copyright */
+footer .copyright {
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+  margin-top: 20px;
 }
