@@ -285,6 +285,7 @@
   max-width: 400px;
   margin: 0 auto;
 }
+/* css footer */
 
 .footer {
   background-color: #f8f8f8;
@@ -312,18 +313,28 @@
   color: #007bff;
 }
 
+.footer .payment-methods-section {
+  text-align: center;
+}
 .footer .payment-methods img {
-  max-width: 150px;
+  max-width: 70px;
+  align-content: center;
+  padding-top: 7%;
+  
 }
 
 .footer .contact-info h4 {
   font-size: 20px;
   margin-bottom: 20px;
+  padding-left: 45%;
+ 
 }
 
 .footer .contact-info p {
   font-size: 16px;
   margin-bottom: 10px;
+  padding-left: 45%;
+  
 }
 
 .footer .contact-info i {
