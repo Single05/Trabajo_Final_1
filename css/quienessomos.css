@@ -63,28 +63,64 @@ span{
 .foto{
     padding-left: 10vh;
     padding-right: 10vh;
+    
 }
+/* css footer */
+
 .footer {
     background-color: #f8f8f8;
     padding: 50px 0;
   }
+  
+  
+  .footer .logo img {
+    max-width: 150px;
+    margin-bottom: 30px;
+  }
+  
+  .footer .social-icons {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .footer .social-icons a {
+    color: #333;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer .social-icons a:hover {
+    color: #007bff;
+  }
+  
+  .footer .payment-methods-section {
+    text-align: center;
+  }
+  .footer .payment-methods img {
+    max-width: 70px;
+    align-content: center;
+    padding-top: 7%;
+    
+  }
+  
   .footer .contact-info h4 {
     font-size: 20px;
     margin-bottom: 20px;
+    padding-left: 45%;
+   
   }
   
   .footer .contact-info p {
     font-size: 16px;
     margin-bottom: 10px;
+    padding-left: 45%;
+    
   }
   
-  .footer .contact-info {
-    display: flex;
+  .footer .contact-info i {
     margin-right: 10px;
-    flex-direction: row;
-    justify-content: space-between;
   }
-
+  
   /* Estilos para el texto de copyright */
   footer .copyright {
       text-align: center;
