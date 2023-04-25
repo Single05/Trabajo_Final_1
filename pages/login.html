@@ -118,45 +118,19 @@
           </div>
           <div class="px-lg-4 pt-lg-3 pb-lg-2 p-4 w-100 align-self-center">
             <h1 class="bold mb-4">Bienvenido</h1>
-            <form class="mb-4">
-              <div class="mb-4">
-                <label
-                  for="exampleInputEmail1"
-                  class="form-label font-weight-bold"
-                  >Email</label
-                >
-                <input
-                  type="email"
-                  class="form-control bg-dark-x border-0"
-                  placeholder="Ingresa tu email"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                />
-              </div>
-              <div class="mb-4">
-                <label
-                  for="exampleInputPassword1"
-                  class="form-label font-weight-bold"
-                  >Contraseña</label
-                >
-                <input
-                  type="password"
-                  class="form-control bg-dark-x border-0 mb-2"
-                  placeholder="Ingresa tu contraseña"
-                  id="exampleInputPassword1"
-                />
-                <a
-                  href="#"
-                  id="emailHelp"
-                  class="form-text text-muted text-decoration-none"
-                  data-bs-toggle="modal"
-                  data-bs-target="#staticBackdrop"
-                  >¿Has olvidado tu contraseña?</a
-                >
-              </div>
-              <button type="submit" class="btn btn-primary w-100">
-                Iniciar sesión
-              </button>
+            <form id="login" class="mb-4">
+           <div class="mb-4">
+           <label for="exampleInputEmail1" class="form-label font-weight-bold" >Email</label>
+           <input type="email" class="form-control bg-dark-x border-0" id="exampleInputEmail1" placeholder="Ingresa tu email" aria-describedby="emailHelp" required autofocus/>
+           </div>
+           <div class="mb-4">
+           <label for="exampleInputPassword1" class="form-label font-weight-bold" >Contraseña</label>
+           <input type="password" class="form-control bg-dark-x border-0 mb-2" id="exampleInputPassword1" placeholder="Ingresa tu contraseña"  required/>
+           <a href="#" id="emailHelp" class="form-text text-muted text-decoration-none" data-bs-toggle="modal" data-bs-target="#staticBackdrop">¿Has olvidado tu contraseña?</a>
+          </div>
+           <button type="submit" class="btn btn-primary w-100" value="ingresar">
+             Iniciar sesión
+           </button>
             </form>
             <p class="bold text-center text-muted">O inicia sesión con</p>
             <div class="d-flex justify-content-around">
@@ -260,6 +234,7 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+    <script src="../js/login.js"></script>
   </body>
 </html>
 
