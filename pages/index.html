@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="../css/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -34,7 +34,7 @@
       <nav class="navbar navbar-expand-lg bg-light m-0">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="./img/fuzlogo.jpg" class="fuzlogo" alt="" />
+            <img src="../img/fuzlogo.jpg" class="fuzlogo" alt="" />
           </a>
           <button
             class="navbar-toggler"
@@ -55,12 +55,12 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/quienessomos.html"
+                <a class="nav-link" href="./quienessomos.html"
                   >Acerca de nosotros</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                <a class="nav-link" href="./contacto.html">Contacto</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -74,27 +74,30 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="./pages/error404.html"
+                    <a class="dropdown-item" href="./error404.html"
                       >Salud, Higiene y Estetica</a
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="./pages/error404.html"
+                    <a class="dropdown-item" href="./error404.html"
                       >Alimentos balanceados</a
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="./pages/error404.html"
+                    <a class="dropdown-item" href="./error404.html"
                       >Accesorios</a
                     >
                   </li>
                 </ul>
               </li>
             </ul>
-            <a id="loginBtn" href="./pages/login.html"
+            <a id="loginBtn" href="./login.html"
               ><i class="material-icons">person</i></a
             >
-            <a href="./pages/carrito.html">
+            <a id="logoutBtn" style="display: none;" href="./index.html"
+              ><i class="material-icons">logout</i></a
+            >
+            <a href="./carrito.html">
               <i class="material-icons">add_shopping_cart</i></a
             >
             <form class="d-flex" role="search">
@@ -107,7 +110,7 @@
               <button
                 class="btn btn-outline-primary"
                 type="submit"
-                href="./pages/error404.html"
+                href="./error404.html"
               >
                 <i class="material-icons">search</i>
               </button>
@@ -118,11 +121,11 @@
       <!-- fin de navbar -->
       <div class="slider">
         <div class="slider-images">
-          <img src="./img/carousel1.png" alt="Imagen 1" />
-          <img src="./img/carousel2.png" alt="Imagen 2" />
-          <img src="./img/carousel3.png" alt="Imagen 3" />
-          <img src="./img/carousel4.png" alt="Imagen 4" />
-          <img src="./img/carousel5.png" alt="Imagen 5" />
+          <img src="../img/carousel1.png" alt="Imagen 1" />
+          <img src="../img/carousel2.png" alt="Imagen 2" />
+          <img src="../img/carousel3.png" alt="Imagen 3" />
+          <img src="../img/carousel4.png" alt="Imagen 4" />
+          <img src="../img/carousel5.png" alt="Imagen 5" />
         </div>
       </div>
       <section class="featured-products">
@@ -131,7 +134,7 @@
           <div class="row">
             <div class="col-12 col-md-6 col-lg-4">
               <div class="product-item">
-                <img src="./img/publi2.png" alt="Producto 1" />
+                <img src="../img/publi2.png" alt="Producto 1" />
                 <h3>Nombre del Producto 1</h3>
                 <p>Descripción del Producto 1</p>
                 <a href="#" class="btn">Comprar Ahora</a>
@@ -139,7 +142,7 @@
             </div>
             <div class="col-12 col-md-6 col-lg-4">
               <div class="product-item">
-                <img src="./img/performance-ad21.webp" alt="Producto 2">
+                <img src="../img/performance-ad21.webp" alt="Producto 2">
                 <h3>Nombre del Producto 2</h3>
                 <p>Descripción del Producto 2</p>
                 <a href="#" class="btn">Comprar Ahora</a>
@@ -147,7 +150,7 @@
             </div>
             <div class="col-12 col-md-6 col-lg-4">
               <div class="product-item">
-                <img src="./img/alimentogatos.webp" alt="Producto 3">
+                <img src="../img/alimentogatos.webp" alt="Producto 3">
                 <h3>Nombre del Producto 3</h3>
                 <p>Descripción del Producto 3</p>
                 <a href="#" class="btn">Comprar Ahora</a>
@@ -155,7 +158,7 @@
             </div>
             <div class="col-12 col-md-6 col-lg-4">
               <div class="product-item">
-                <img src="./img/alimentopeces.webp" alt="Producto 4">
+                <img src="../img/alimentopeces.webp" alt="Producto 4">
                 <h3>Nombre del Producto 4</h3>
                 <p>Descripción del Producto 4</p>
                 <a href="#" class="btn">Comprar Ahora</a>
@@ -163,7 +166,7 @@
             </div>
             <div class="col-12 col-md-6 col-lg-4">
               <div class="product-item">
-                <img src="./img/alimentoperros.webp" alt="Producto 5">
+                <img src="../img/alimentoperros.webp" alt="Producto 5">
                 <h3>Nombre del Producto 5</h3>
                 <p>Descripción del Producto 5</p>
                 <a href="#" class="btn">Comprar Ahora</a>
@@ -171,7 +174,7 @@
             </div>
             <div class="col-12 col-md-6 col-lg-4">
               <div class="product-item">
-                <img src="./img/CardinaCabodeMadera.png" alt="Producto 6">
+                <img src="../img/CardinaCabodeMadera.png" alt="Producto 6">
                 <h3>Nombre del Producto 6</h3>
                 <p>Descripción del Producto 6</p>
                 <a href="#" class="btn">Comprar Ahora</a>
@@ -187,7 +190,7 @@
           <div class="row">
             <div class="col-12 col-md-6 col-lg-4">
               <div class="offer-item">
-                <img src="./img/publi2.png" alt="Oferta 1" />
+                <img src="../img/publi2.png" alt="Oferta 1" />
                 <div class="offer-details">
                   <h3>Nombre del Producto 1</h3>
                   <p>Descripción del Producto 1</p>
@@ -201,7 +204,7 @@
             </div>
             <div class="col-12 col-md-6 col-lg-4">
               <div class="offer-item">
-                <img src="./img/lata-agility-perro-90g.webp" alt="Oferta 2">
+                <img src="../img/lata-agility-perro-90g.webp" alt="Oferta 2">
                 <div class="offer-details">
                   <h3>Nombre del Producto 2</h3>
                   <p>Descripción del Producto 2</p>
@@ -215,7 +218,7 @@
             </div>
             <div class="col-12 col-md-6 col-lg-4">
               <div class="offer-item">
-                <img src="./img/publi5.jpg" alt="Oferta 3">
+                <img src="../img/publi5.jpg" alt="Oferta 3">
                 <div class="offer-details">
                   <h3>Nombre del Producto 3</h3>
                   <p>Descripción del Producto 3</p>
@@ -237,7 +240,7 @@
             <div class="col-md-4">
               <div class="review-item">
                 <div class="avatar">
-                  <img src="./img/avatar1.png" alt="Avatar 1" />
+                  <img src="../img/avatar1.png" alt="Avatar 1" />
                 </div>
                 <div class="details">
                   <h3>Cliente Satisfecho</h3>
@@ -258,7 +261,7 @@
             <div class="col-md-4">
               <div class="review-item">
                 <div class="avatar">
-                  <img src="./img/avatar2.webp" alt="Avatar 2" />
+                  <img src="../img/avatar2.webp" alt="Avatar 2" />
                 </div>
                 <div class="details">
                   <h3>Cliente Feliz</h3>
@@ -279,7 +282,7 @@
             <div class="col-md-4">
               <div class="review-item">
                 <div class="avatar">
-                  <img src="./img/avatar3.jpg" alt="Avatar 3" />
+                  <img src="../img/avatar3.jpg" alt="Avatar 3" />
                 </div>
                 <div class="details">
                   <h3>Cliente Contento</h3>
@@ -362,7 +365,7 @@
 
       <!-- fin de footer -->
 
-      <script src="./js/index.js"></script>
+      <script src="../js/index.js"></script>
       <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"

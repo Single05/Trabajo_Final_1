@@ -10,13 +10,13 @@ registro.addEventListener("submit", (e) => {
   const UsuarioRegistrado = users.find (user => user.email === email)
   if (UsuarioRegistrado) {
     return alert ("el usuario esta registrado")
-  }else if (UsuarioRegistrado) {(user => user.contraseña != user.contraseña1)
-    return alert ("Las contraseñas no coinciden")
+  } 
+  if (contraseña !== contraseña1) {
+    return alert ("las contraseñas no coinciden")  
   }
-  else if(UsuarioRegistrado) {(user => user.email !== email && user.contraseña === user.contraseña1)}
-  users.push ({name: name, email: email, contraseña: contraseña, contraseña1: contraseña1})
-localStorage.setItem("users", JSON.stringify(users))
-alert ("registro existoso")
-
+  users.push ({name: name, email: email, contraseña: contraseña})
+  localStorage.setItem("users", JSON.stringify(users))
+  alert ("Registro exitoso")
+ 
 //redireccion a login
 })
