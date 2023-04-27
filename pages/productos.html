@@ -122,7 +122,9 @@
       <button id="boton-carrito">
         <i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span>
       </button>
+      <a href="../index.html" class="boton-volver" id="boton-volver">Volver</a>
     </header>
+    
     <div class="seccion">
     <h1 class="title-seccion">Selecciona el tipo de elemento que quieres comprar</h1>
     <select id="categoria">
@@ -140,11 +142,7 @@
         <h3>Carrito</h3>
         <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
         <div id="carrito-contenedor">
-          <!-- <div class="productoEnCarrito">
-                    <p>Alimento para perro</p>
-                    <p>Precio: $1200</p>
-                    <button class="boton-eliminar"><i class="fas fa-trash-alt"></i></button>
-                </div> -->
+          <!-- Aquí irían los productos en el carrito -->
         </div>
         <p class="precioProducto">
           Precio total: $<span id="precioTotal">0</span>
@@ -152,8 +150,73 @@
         <button id="vaciar-carrito" class="boton-agregar">
           Vaciar carrito
         </button>
+        <button id="realizar-compra" class="boton-agregar">
+          Realizar compra
+        </button>
       </div>
     </div>
+
+    <!-- inicio Footer -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="logo">
+              <img src="../img/fuzlogo.jpg" alt="Logo" />
+            </div>
+            <div class="social-icons">
+              <a href="#"
+                ><img src="../img/whatsapplogo.png" alt="WhatsApp"
+              /></a>
+              <a href="#"
+                ><img src="../img/twitterlogo.png" alt="Twitter"
+              /></a>
+              <a href="#"
+                ><img src="../img/facebooklogo.png" alt="Facebook"
+              /></a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="payment-methods-section">
+              <h4>Métodos de Pago</h4>
+              <div class="payment-methods">
+                <img src="../img/naranja.png" alt="Payment Methods" />
+                <img src="../img/nativa.png" alt="Payment Methods" />
+                <img src="../img/mercadopago.png" alt="Payment Methods" />
+                <img src="../img/mastercard.png" alt="Payment Methods" />
+                <img src="../img/visa.png" alt="Payment Methods" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="contact-info">
+              <h4>Contáctanos</h4>
+              <p><i class="fas fa-phone"></i> +54 381 564123</p>
+              <p>
+                <i class="fas fa-map-marker-alt"></i> Av. Sarmiento 528 -
+                <br />
+                San Miguel de Tucumán
+              </p>
+              <p><i class="fas fa-envelope"></i> info@fuzpetshop.com</p>
+              <p>
+                <i class="fas fa-clock"></i> Horario de Atención: <br />
+                Lunes a Viernes de 9am a 5pm
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="copyright">
+              <p>&copy; 2023 Mi Empresa. Todos los derechos reservados.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- fin de footer -->
     <script src="../js/stock.js"></script>
     <script src="../js/modal.js"></script>
     <script src="../js/productos.js"></script>

@@ -131,6 +131,20 @@ const actualizarCarrito = () => {
   //empezando en 0.
 };
 
+const realizarCompraButton = document.getElementById('realizar-compra');
+realizarCompraButton.addEventListener('click', () => {
+  // Aquí iría el código para procesar la compra
+  // ...
+});
+
+const botonCompra = document.getElementById("realizar-compra");
+
+botonCompra.addEventListener("click", function() {
+  const total = document.getElementById("precioTotal").textContent;
+  alert(`El total de su compra es de $${total}. ¡Gracias por su compra!`);
+});
+
+
 
 
 

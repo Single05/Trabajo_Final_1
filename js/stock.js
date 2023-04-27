@@ -5,7 +5,7 @@ let productos = [
     categoria: "Alimento",
     cantidad: 1,
     desc: "Alimento Royal Canin para perro adulto",
-    precio: 2400,
+    precio: 2750,
     img: "../img/Alimento6.webp",
   },
   {
@@ -14,7 +14,7 @@ let productos = [
     categoria: "Alimento",
     cantidad: 1,
     desc: "Alimento para peces Shulet Carassius",
-    precio: 1500,
+    precio: 1250,
     img: "../img/Alimento.webp",
   },
   {
@@ -23,7 +23,7 @@ let productos = [
     categoria: "Alimento",
     cantidad: 1,
     desc: "Alimento Proplan para perro adulto",
-    precio: 2500,
+    precio: 3000,
     img: "../img/Alimento2.webp",
   },
   {
@@ -41,16 +41,16 @@ let productos = [
     categoria: "Alimento",
     cantidad: 1,
     desc: "Alimento Agility para perros adultos",
-    precio: 1400,
-    img: "../img/Alimento4.webp",
+    precio: 3200,
+    img: "../img/Alimento4.png",
   },
   {
     id: 6,
     nombre: "Rascador para gatos",
     categoria: "Rascador",
     cantidad: 1,
-    desc: "Rascador para gatos de piso, cubierto de felpa",
-    precio: 6800,
+    desc: "Rascador para gatos cubierto de felpa",
+    precio: 5500,
     img: "../img/Rascador.jpg",
   },
   {
@@ -58,9 +58,9 @@ let productos = [
     nombre: "Rascador para gatos",
     categoria: "Rascador",
     cantidad: 1,
-    desc: "Rascador para poner en la pared para gatos",
-    precio: 3600,
-    img: "../img/Rascador2.jpeg",
+    desc: "Rascador de pared para gatos",
+    precio: 2900,
+    img: "../img/Rascador2.webp",
   },
   {
     id: 8,
@@ -68,7 +68,7 @@ let productos = [
     categoria: "Rascador",
     cantidad: 1,
     desc: "Rascador para gatos tamaño grande",
-    precio: 1000,
+    precio: 7300,
     img: "../img/Rascador3.jpg",
   },
   {
@@ -77,7 +77,7 @@ let productos = [
     categoria: "Juguete",
     cantidad: 1,
     desc: "Pelotita para perros y gatos",
-    precio: 1400,
+    precio: 1800,
     img: "../img/Juguete.jpg",
   },
   {
@@ -86,7 +86,7 @@ let productos = [
     categoria: "Juguete",
     cantidad: 1,
     desc: "Hueso grande para perros",
-    precio: 1400,
+    precio: 800,
     img: "../img/Juguete2.jpg",
   },
   {
@@ -94,8 +94,8 @@ let productos = [
     nombre: "Juguete para gatos",
     categoria: "Juguete",
     cantidad: 1,
-    desc: "Caña de plastico con plumas para gatos",
-    precio: 1400,
+    desc: "Caña con plumas para gatos ",
+    precio: 1000,
     img: "../img/Juguete3.webp",
   },
   {
@@ -104,7 +104,8 @@ let productos = [
     categoria: "Juguete",
     cantidad: 1,
     desc: "Raton electrico para gatos",
-    precio: 1400,
+    precio: 2450,
     img: "../img/Juguete4.webp",
   },
 ];
+
