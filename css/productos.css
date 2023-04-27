@@ -64,7 +64,7 @@ header {
   }
 
 .titulo {
-    color: royalblue;
+    color: #f74d4d;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 50px;
@@ -75,7 +75,7 @@ header {
   
 #boton-carrito {
   border: none;
-  color: royalblue;
+  color: #f74d4d;
   font-size: 30px;
   background-color: white;
   border-radius: 50%;
@@ -87,7 +87,7 @@ header {
 #boton-carrito:hover {
   cursor: pointer;
   color: white;
-  background-color: royalblue;
+  background-color: #f74d4d;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -195,7 +195,7 @@ p {
 }
 
 .modal-carrito h3 {
-  color: royalblue;
+  color: #f74d4d;
   padding-bottom: 5px;
 }
 .modal-carrito #carritoCerrar {
@@ -203,7 +203,7 @@ p {
   top: 15px;
   right: 15px;
   font-size: 20px;
-  color: royalblue;
+  color: #f74d4d;
   border: none;
   background-color: white;
 }
@@ -242,4 +242,53 @@ p {
 }
 .boton-eliminar:focus {
   outline: none;
+}
+
+@media (max-width: 768px) {
+  .fuzlogo {
+    width: 3rem;
+    height: 3rem;
+  }
+  .title-seccion {
+    font-size: 24px;
+  }
+  #categoria {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+  header {
+    padding: 10px 5%;
+  }
+  .titulo {
+    font-size: 36px;
+  }
+  #boton-carrito {
+    font-size: 24px;
+    padding: 8px 16px;
+  }
+  #contenedor-productos {
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .producto {
+    max-width: 40%;
+  }
+  .precioProducto {
+    font-size: 0.8rem;
+  }
+  .precioProducto span {
+    font-size: 1rem;
+  }
+  .boton-agregar {
+    font-size: 0.8rem;
+    padding: 8px 16px;
+  }
+  .modal-carrito {
+    min-width: 80%;
+  }
+  .modal-carrito #carritoCerrar {
+    top: 10px;
+    right: 10px;
+  }
 }
