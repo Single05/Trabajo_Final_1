@@ -121,7 +121,7 @@
             <th>Producto</th>
             <th>Cantidad</th>
             <th>Precio</th>
-            <th></th>
+            <th>Accion</th>
           </tr>
         </thead>
         <tbody>
@@ -191,11 +191,16 @@
             <td><button class="delete-btn">x</button></td>
           </tr>
         </tbody>
-        <td>
-            <span class="total-text">Total:</span>
-            <span class="total-price" id="total-price">$0.00</span>
-            <button id="finalizar-btn" class="finalizar-btn">Finalizar compra</button>
-          </td>
+      
+      <td colspan="4">
+        <span class="total-text">Total:</span>
+        <span class="total-price positive" id="total-price">$0.00</span>
+        <div id="finalizar-btn-container">
+          <button id="finalizar-btn" class="finalizar-btn">Finalizar compra</button>
+        </div>
+      </td>
+    </table>
+        
 
       <!-- inicio Footer -->
 
@@ -204,7 +209,7 @@
           <div class="row">
             <div class="col-md-4">
               <div class="logo">
-                <img src="./img/fuzlogo.jpg" alt="Logo" />
+                <img src="../img/fuzlogo.jpg" alt="Logo" />
               </div>
               <div class="social-icons">
                 <a href="#"
