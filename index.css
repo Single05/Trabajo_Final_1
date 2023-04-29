@@ -8,12 +8,12 @@
 }
 
 [data-theme = "dark"]{
-  --primary: #9BA4B5 !important ;
-  --background: #212A3E !important;
+  --primary: #2C394B !important ;
+  --background: #082032 !important;
   --text: #fff !important;
-  --primary_two: #394867 !important;
-  --primary_three:#7C96AB!important;
-  --primary_four: #F1F6F9!important;
+  --primary_two: #334756 !important;
+  --primary_three:#00ADB5!important;
+  --primary_four: #FF4C29!important;
 
 }
 body {
