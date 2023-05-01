@@ -20,7 +20,7 @@ function Loop() {
     requestAnimationFrame(Loop);
 }
 
-//****** GAME LOGIC ********//
+// logica de juego
 
 var sueloY = 22;
 var velY = 0;

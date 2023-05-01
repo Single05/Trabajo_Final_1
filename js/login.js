@@ -14,5 +14,20 @@ login.addEventListener ("submit", (e) => {
    window.location.href = "index.html"
   })
 
-
   
+
+const ClaveSecreta = "clave";
+const botonCheck = document.getElementById('defaultCheck1');
+
+botonCheck.addEventListener('click', () => {
+  if (botonCheck.checked) {
+    const clave = prompt('Por favor, ingresa la clave:');
+  
+    if (clave === ClaveSecreta) {
+      alert('¡Clave correcta! Bienvenido.');
+    } else {
+      alert('Clave incorrecta. Acceso denegado.');
+      botonCheck.checked = false; 
+    }
+  }
+});

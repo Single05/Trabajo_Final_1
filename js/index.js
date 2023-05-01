@@ -1,3 +1,4 @@
+
 // buscador de contenido
 document.getElementById("icon-search").addEventListener("click", mostrar_buscador);
 document.getElementById("cover-ctn-search").addEventListener("click", ocultar_buscador);
@@ -53,9 +54,7 @@ function buscador_interno(){
         }else{
             li[i].style.display = "none";
         }
-
     }
-
 
 }
 
@@ -79,3 +78,15 @@ setTheme(localStorage.getItem ('theme') || preferedColorScheme);
 
 
 // letra de titulo
+
+const user = JSON.parse(localStorage.getItem("login_success")) || false
+if (user) {
+  document.querySelector("#logoutBtn").style.display = "block"; 
+}
+const logout = document.querySelector("#logoutBtn")
+
+logout.addEventListener("click", () => {
+alert("Hasta pronto!")
+localStorage.removeItem("login_success")
+})
+
