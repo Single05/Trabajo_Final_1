@@ -78,5 +78,4 @@ slider.addEventListener('click', () => {
 setTheme(localStorage.getItem ('theme') || preferedColorScheme);
 
 
-
-
+// letra de titulo
