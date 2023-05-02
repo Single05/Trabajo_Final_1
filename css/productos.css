@@ -53,7 +53,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 10%;
+  padding: 20px 3%;
   background-color: #fff;
   box-shadow: 0px 5px 4px 3px rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -61,6 +61,10 @@ header {
   left: 0;
   right: 0;
   z-index: 9999;
+}
+
+.button-container #boton-carrito {
+  margin-right: 20px;
 }
 
 .titulo {
@@ -245,6 +249,12 @@ p {
 }
 
 @media (max-width: 768px) {
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .fuzlogo {
     width: 3rem;
     height: 3rem;
@@ -291,6 +301,27 @@ p {
   .modal-carrito #carritoCerrar {
     top: 10px;
     right: 10px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1000px;
   }
 }
 

@@ -118,20 +118,30 @@
     </nav>
     <!-- fin de navbar -->
     <header>
-      <h1 id="titulo" class="titulo">Los mejores productos para tus mascotas</h1>
-      <button id="boton-carrito">
-        <i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span>
-      </button>
-      <a href="../index.html" class="boton-volver" id="boton-volver">Volver</a>
+      <div class="logo-container">
+        <a class="navbar-brand" href="#">
+          <img src="../img/fuzlogo.jpg" class="fuzlogo" alt="" />
+        </a>
+      </div>
+      <div class="title-container">
+        <h1 id="titulo" class="titulo">Todo lo que tus mascotas necesitan</h1>
+      </div>
+      <div class="button-container">
+        <button id="boton-carrito">
+          <i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span>
+        </button>
+        <a href="../index.html" class="boton-volver" id="boton-volver">Volver</a>
+      </div>
     </header>
+    
     
     <div class="seccion">
     <h1 class="title-seccion">Selecciona el tipo de elemento que quieres comprar</h1>
     <select id="categoria">
       <option value="all">Todos</option>
-      <option value="Alimentos">Alimentos</option>
-      <option value="Rascadores">Rascadores</option>
-      <option value="Juguetes">Juguetes</option>
+      <option value="Alimento">Alimentos</option>
+      <option value="Rascador">Rascadores</option>
+      <option value="Juguete">Juguetes</option>
     </select>
 </div>
 
@@ -218,7 +228,8 @@
 
     <!-- fin de footer -->
     <script src="../js/stock.js"></script>
-    <script src="../js/modal.js"></script>
     <script src="../js/productos.js"></script>
+    <script src="../js/modal.js"></script>
+    
   </body>
 </html>
