@@ -64,7 +64,7 @@ let productos = [
   },
   {
   id: 8,
-  nombre: "Alimento Excellent Purina para gato",
+  nombre: "Alimento Excellent para gato",
   categoria: "Alimento",
   cantidad: 1,
   desc: "Alimento balanceado de alta calidad para gatos adultos, de la marca Purina.",
@@ -73,7 +73,7 @@ let productos = [
   },
   {
   id: 9,
-  nombre: "Rascador para gatos cubierto de felpa",
+  nombre: "Rascador de felpa para gatos",
   categoria: "Rascador",
   cantidad: 1,
   desc: "Rascador para gatos de alta calidad, cubierto de suave felpa para brindar mayor comodidad y diversión.",
@@ -82,7 +82,7 @@ let productos = [
   },
   {
     id: 10,
-    nombre: "Rascador para gatos",
+    nombre: "Rascador para la pared",
     categoria: "Rascador",
     cantidad: 1,
     desc: "Este rascador para gatos está diseñado para ser montado en la pared y ayudar a mantener a tu gato feliz y saludable mientras ahorras espacio en tu hogar.",
@@ -91,7 +91,7 @@ let productos = [
   },
   {
     id: 11,
-    nombre: "Rascador para gatos",
+    nombre: "Rascador tamaño grande",
     categoria: "Rascador",
     cantidad: 1,
     desc: "Este rascador para gatos es perfecto para gatos grandes o para aquellos que prefieren rascar en superficies más altas.",
@@ -100,7 +100,7 @@ let productos = [
   },
   {
     id: 12,
-    nombre: "Rascador para gatos",
+    nombre: "Rascador de 3 pisos",
     categoria: "Rascador",
     cantidad: 1,
     desc: "Este rascador para gatos de tres pisos proporciona una experiencia completa de juego y descanso para tu gato.",
@@ -109,7 +109,7 @@ let productos = [
   },
   {
     id: 13,
-    nombre: "Rascador para gatos",
+    nombre: "Rascador con camas",
     categoria: "Rascador",
     cantidad: 1,
     desc: "Este rascador para gatos está cubierto de felpa suave y cuenta con múltiples camas para que tu gato descanse cómodamente después de jugar.",
@@ -118,7 +118,7 @@ let productos = [
   },
   {
     id: 14,
-    nombre: "Rascador para gatos",
+    nombre: "Rascador de felpa grande",
     categoria: "Rascador",
     cantidad: 1,
     desc: "Este rascador para gatos de gran tamaño está cubierto de felpa suave y ofrece una superficie amplia para que tu gato pueda rascar y jugar.",
@@ -127,7 +127,7 @@ let productos = [
   },
   {
     id: 15,
-    nombre: "Rascador para gatos",
+    nombre: "Rascador de 4 pisos",
     categoria: "Rascador",
     cantidad: 1,
     desc: "Este rascador para gatos de cuatro pisos cuenta con dos camas suaves y múltiples superficies de rascado para que tu gato se divierta y descanse.",
@@ -136,7 +136,7 @@ let productos = [
   },
   {
     id: 16,
-    nombre: "Rascador para gatos",
+    nombre: "Rascador con plumas y bolitas",
     categoria: "Rascador",
     cantidad: 1,
     desc: "Este rascador para gatos cuenta con plumas y bolitas de lana colgantes que mantendrán a tu gato entretenido y feliz durante horas.",
@@ -145,7 +145,7 @@ let productos = [
   },
   {
     id: 17,
-    nombre: "Juguete para ambos",
+    nombre: "Pelotitas para perros y gatos",
     categoria: "Juguete",
     cantidad: 1,
     desc: "Este juguete es perfecto para mantener a tu mascota activa y entretenida. La pelotita es ideal tanto para perros como para gatos",
@@ -154,7 +154,7 @@ let productos = [
   },
   {
     id: 18,
-    nombre: "Juguete para perros",
+    nombre: "Hueso grande para perro",
     categoria: "Juguete",
     cantidad: 1,
     desc: "Si estás buscando un juguete para tu perro que sea resistente y duradero, este hueso grande es una excelente opción.",
@@ -163,7 +163,7 @@ let productos = [
   },
   {
     id: 19,
-    nombre: "Juguete para gatos",
+    nombre: "Caña con plumas",
     categoria: "Juguete",
     cantidad: 1,
     desc: "Si tu gato es fanático de las plumas, esta caña es perfecta para él.  la caña está diseñada para ser resistente y duradera, por lo que podrás usarla por mucho tiempo.",
@@ -172,7 +172,7 @@ let productos = [
   },
   {
     id: 20,
-    nombre: "Juguete para gatos",
+    nombre: "Raton electrico",
     categoria: "Juguete",
     cantidad: 1,
     desc: "Este juguete es ideal para aquellos gatos que aman cazar ratones, simula los movimientos de un ratón real, lo que mantendrá a tu gato entretenido y en forma.",
@@ -181,7 +181,7 @@ let productos = [
   },
   {
     id: 21,
-    nombre: "Juguete para ambos",
+    nombre: "Bolitas giratorias y ratones con resorte",
     categoria: "Juguete",
     cantidad: 1,
     desc: "Estas bolitas giratorias y ratones con resorte son una excelente opción para estimular el instinto cazador de tu gato. ",
@@ -190,7 +190,7 @@ let productos = [
   },
   {
     id: 22,
-    nombre: "Juguete para perros",
+    nombre: "Bola de goma totalmente resistente",
     categoria: "Juguete",
     cantidad: 1,
     desc: "Esta bola está diseñada para ser resistente y duradera, por lo que podrás jugar con tu perro durante mucho tiempo.",
@@ -199,7 +199,7 @@ let productos = [
   },
   {
     id: 23,
-    nombre: "Juguete para gatos",
+    nombre: "Soga mulftiforma para perro",
     categoria: "Juguete",
     cantidad: 1,
     desc: "Esta soga está diseñada en diferentes formas y colores para mantener a tu perro entretenido y feliz",
@@ -208,7 +208,7 @@ let productos = [
   },
   {
     id: 24,
-    nombre: "Juguete para gatos",
+    nombre: "Pelotita con plumas para gato",
     categoria: "Juguete",
     cantidad: 1,
     desc: "Estas pelotitas están diseñadas con plumas y materiales de alta calidad para mantener a tu gato activo y feliz",
