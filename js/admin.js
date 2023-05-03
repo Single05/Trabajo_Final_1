@@ -1,5 +1,5 @@
-import { productos_stock } from "./stock";
-  console.log (productos_stock);
+import { productos } from "./stock";
+  console.log (productos);
   
 function guardarAlmacenamientoLocal(llave, valor_a_guardar) {
   localStorage.setItem(llave, JSON.stringify(valor_a_guardar));
@@ -9,7 +9,7 @@ function obtenerAlmacenamientoLocal(llave) {
   return datos;
 }
 
-let productos_stock = obtenerAlmacenamientoLocal("productos_stock") || [];
+let productos = obtenerAlmacenamientoLocal("productos") || [];
 let mensaje = document.getElementById("mensaje");
 
 //Añadir un producto
@@ -41,8 +41,8 @@ document
       }, 2500);
       condicion_cumplida = false;
     } else {
-      for (let i = 0; i < productos_stock.length; i++) {
-        if (productos_stock[i].nombre == productoAñadir) {
+      for (let i = 0; i < productos.length; i++) {
+        if (productos[i].nombre == productoAñadir) {
           mensaje.classList.add("repetidoError");
           setTimeout(() => {
             mensaje.classList.remove("repetidoError");
@@ -53,7 +53,7 @@ document
     }
 
     if (condicion_cumplida == true) {
-      productos_stock.push({
+      productos.push({
         nombre: productoAñadir,
         valor: valorAñadir,
         existencia: existenciaAñadir,
@@ -65,7 +65,7 @@ document
         window.location.reload();
       }, 1500);
     }
-    guardarAlmacenamientoLocal("productos", productos_stock);
+    guardarAlmacenamientoLocal("productos", productos);
   });
 
 // Editar
@@ -87,9 +87,9 @@ document
         mensaje.classList.remove("llenarCampos");
       }, 2500);
     } else {
-      for (let i = 0; i < productos_stock.length; i++) {
-        if (productos_stock[i].nombre == productoEditar) {
-          productos_stock[i][atributoEditar] = nuevoAtributo;
+      for (let i = 0; i < productos.length; i++) {
+        if (productos[i].nombre == productoEditar) {
+          productos[i][atributoEditar] = nuevoAtributo;
           condicion_cumplida = true;
         }
       }
@@ -105,7 +105,7 @@ document
           mensaje.classList.remove("noExsiteError");
         }, 2500);
       }
-      guardarAlmacenamientoLocal("productos", productos_stock);
+      guardarAlmacenamientoLocal("productos", productos);
     }
   });
 
@@ -120,8 +120,8 @@ document
     let condicion_cumplida = false;
 
     for (let i = 0; i < productos.length; i++) {
-      if (productos_stock[i].nombre == productoEliminar) {
-        productos_stock.splice(i, 1);
+      if (productos[i].nombre == productoEliminar) {
+        productos.splice(i, 1);
         condicion_cumplida = true;
       }
     }
@@ -138,29 +138,29 @@ document
         window.location.reload();
       }, 1500);
     }
-    guardarAlmacenamientoLocal("productos", productos_stock);
+    guardarAlmacenamientoLocal("productos", productos);
   });
 
 // mostrar productos
 window.addEventListener("load", () => {
   const productoEd = document.getElementById("productoEditar");
   const productoEl = document.getElementById("productoEliminar");
-  for (let i = 0; i < productos_stock.length; i++) {
-    productoEd.innerHTML += `<option>${productos_stock[i].nombre}</option>`;
-    productoEl.innerHTML += `<option>${productos_stock[i].nombre}</option>`;
+  for (let i = 0; i < productos.length; i++) {
+    productoEd.innerHTML += `<option>${productos[i].nombre}</option>`;
+    productoEl.innerHTML += `<option>${productos[i].nombre}</option>`;
   }
-  Object.keys(productos_stock[0]).forEach((element) => {
+  Object.keys(productos[0]).forEach((element) => {
     atributoEd.innerHTML += `<option>${element}</option>`;
   });
 
   let mostraProductos = document.getElementById("mostrarProductos");
   mostraProductos.innerHTML = "";
-  for (let i = 0; i < productos_stock.length; i++) {
+  for (let i = 0; i < productos.length; i++) {
     mostraProductos.innerHTML += `<div class="contenedorProductos">
-        <img src="${productos_stock[i].urlImagen}">
-        <div class="informacion"><p>${productos_stock[i].nombre}</p>
-        <p class="precio"><span>Precio: ${productos_stock[i].valor}$</span>
-        </p> Existencia: ${productos_stock[i].existencia}<p></p></div></div>`;
+        <img src="${productos[i].urlImagen}">
+        <div class="informacion"><p>${productos[i].nombre}</p>
+        <p class="precio"><span>Precio: ${productos[i].valor}$</span>
+        </p> Existencia: ${productos[i].existencia}<p></p></div></div>`;
   }
   
 });
