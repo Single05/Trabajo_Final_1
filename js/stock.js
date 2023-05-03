@@ -1,4 +1,4 @@
-let productos = [
+export let productos_stock = [
   {
   id: 1,
   nombre: "Alimento Shulet Carassius para peces",
@@ -218,7 +218,7 @@ let productos = [
 ];
 
 // Convertir a JSON y guardar en Local Storage
-localStorage.setItem("productos", JSON.stringify(productos));
+localStorage.setItem("productos_stock", JSON.stringify(productos_stock));
 
  
 
