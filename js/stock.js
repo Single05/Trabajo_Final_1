@@ -1,4 +1,5 @@
-let productos = [
+
+ let productos = [
   {
     id: 1,
     nombre: "Alimento Shulet Carassius para peces",
@@ -220,4 +221,4 @@ let productos = [
 // Convertir a JSON y guardar en Local Storage
 window.onload = function () {
   localStorage.setItem("productos", JSON.stringify(productos));
-};
+}

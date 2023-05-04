@@ -25,6 +25,7 @@ botonCheck.addEventListener('click', () => {
   
     if (clave === ClaveSecreta) {
       alert('¡Clave correcta! Bienvenido.');
+      window.location.href = "admin.html";
     } else {
       alert('Clave incorrecta. Acceso denegado.');
       botonCheck.checked = false; 
