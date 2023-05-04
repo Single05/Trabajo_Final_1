@@ -1,84 +1,85 @@
-let productos = [
+
+ let productos = [
   {
-  id: 1,
-  nombre: "Alimento Shulet Carassius para peces",
-  categoria: "Alimento",
-  cantidad: 1,
-  desc: "Alimento balanceado de alta calidad para peces Carassius, de la marca Shulet.",
-  precio: 2750,
-  img: "../img/Alimento.webp",
+    id: 1,
+    nombre: "Alimento Shulet Carassius para peces",
+    categoria: "Alimento",
+    cantidad: 1,
+    desc: "Alimento balanceado de alta calidad para peces Carassius, de la marca Shulet.",
+    precio: 1800,
+    img: "../img/Alimento.webp",
   },
   {
-  id: 2,
-  nombre: "Alimento Proplan para perro adulto",
-  categoria: "Alimento",
-  cantidad: 1,
-  desc: "Alimento balanceado de alta calidad para perros adultos, de la marca Proplan.",
-  precio: 2750,
-  img: "../img/Alimento2.webp",
+    id: 2,
+    nombre: "Alimento Proplan para perro adulto",
+    categoria: "Alimento",
+    cantidad: 1,
+    desc: "Alimento balanceado de alta calidad para perros adultos, de la marca Proplan.",
+    precio: 2900,
+    img: "../img/Alimento2.webp",
   },
   {
-  id: 3,
-  nombre: "Alimento Whiskas para gatitos",
-  categoria: "Alimento",
-  cantidad: 1,
-  desc: "Alimento balanceado de alta calidad para gatitos, de la marca Whiskas.",
-  precio: 2750,
-  img: "../img/Alimento3.png",
+    id: 3,
+    nombre: "Alimento Whiskas para gatitos",
+    categoria: "Alimento",
+    cantidad: 1,
+    desc: "Alimento balanceado de alta calidad para gatitos, de la marca Whiskas.",
+    precio: 2500,
+    img: "../img/Alimento3.png",
   },
   {
-  id: 4,
-  nombre: "Alimento Agility para perro adulto",
-  categoria: "Alimento",
-  cantidad: 1,
-  desc: "Alimento balanceado de alta calidad para perros adultos, de la marca Agility.",
-  precio: 2750,
-  img: "../img/Alimento4.png",
+    id: 4,
+    nombre: "Alimento Agility para perro adulto",
+    categoria: "Alimento",
+    cantidad: 1,
+    desc: "Alimento balanceado de alta calidad para perros adultos, de la marca Agility.",
+    precio: 3150,
+    img: "../img/Alimento4.png",
   },
   {
-  id: 5,
-  nombre: "Bocaditos Tasty Snack para gato",
-  categoria: "Alimento",
-  cantidad: 1,
-  desc: "Alimento complementario para gatos, compuesto por deliciosos bocaditos de la marca Tasty Snack.",
-  precio: 1250,
-  img: "../img/Alimento5.png",
+    id: 5,
+    nombre: "Bocaditos Tasty Snack para gato",
+    categoria: "Alimento",
+    cantidad: 1,
+    desc: "Alimento complementario para gatos, compuesto por deliciosos bocaditos de la marca Tasty Snack.",
+    precio: 1300,
+    img: "../img/Alimento5.png",
   },
   {
-  id: 6,
-  nombre: "Alimento Royal Canin para perro",
-  categoria: "Alimento",
-  cantidad: 1,
-  desc: "Alimento balanceado de alta calidad para perros adultos, de la marca Royal Canin.",
-  precio: 3000,
-  img: "../img/Alimento6.webp",
+    id: 6,
+    nombre: "Alimento Royal Canin para perro",
+    categoria: "Alimento",
+    cantidad: 1,
+    desc: "Alimento balanceado de alta calidad para perros adultos, de la marca Royal Canin.",
+    precio: 3550,
+    img: "../img/Alimento6.webp",
   },
   {
-  id: 7,
-  nombre: "Alimento Advance para perro adulto",
-  categoria: "Alimento",
-  cantidad: 1,
-  desc: "Alimento balanceado de alta calidad para perros adultos, de la marca Advance.",
-  precio: 1600,
-  img: "../img/Alimento7.png",
+    id: 7,
+    nombre: "Alimento Advance para perro adulto",
+    categoria: "Alimento",
+    cantidad: 1,
+    desc: "Alimento balanceado de alta calidad para perros adultos, de la marca Advance.",
+    precio: 2950,
+    img: "../img/Alimento7.png",
   },
   {
-  id: 8,
-  nombre: "Alimento Excellent para gato",
-  categoria: "Alimento",
-  cantidad: 1,
-  desc: "Alimento balanceado de alta calidad para gatos adultos, de la marca Purina.",
-  precio: 3200,
-  img: "../img/Alimento8.webp",
+    id: 8,
+    nombre: "Alimento Excellent para gato",
+    categoria: "Alimento",
+    cantidad: 1,
+    desc: "Alimento balanceado de alta calidad para gatos adultos, de la marca Purina.",
+    precio: 2860,
+    img: "../img/Alimento8.webp",
   },
   {
-  id: 9,
-  nombre: "Rascador de felpa para gatos",
-  categoria: "Rascador",
-  cantidad: 1,
-  desc: "Rascador para gatos de alta calidad, cubierto de suave felpa para brindar mayor comodidad y diversión.",
-  precio: 5500,
-  img: "../img/Rascador.jpg",
+    id: 9,
+    nombre: "Rascador de felpa para gatos",
+    categoria: "Rascador",
+    cantidad: 1,
+    desc: "Rascador para gatos de alta calidad, cubierto de suave felpa para brindar mayor comodidad y diversión.",
+    precio: 4800,
+    img: "../img/Rascador.jpg",
   },
   {
     id: 10,
@@ -95,7 +96,7 @@ let productos = [
     categoria: "Rascador",
     cantidad: 1,
     desc: "Este rascador para gatos es perfecto para gatos grandes o para aquellos que prefieren rascar en superficies más altas.",
-    precio: 7300,
+    precio: 5250,
     img: "../img/Rascador3.jpg",
   },
   {
@@ -104,7 +105,7 @@ let productos = [
     categoria: "Rascador",
     cantidad: 1,
     desc: "Este rascador para gatos de tres pisos proporciona una experiencia completa de juego y descanso para tu gato.",
-    precio: 5500,
+    precio: 7000,
     img: "../img/Rascador4.jpg",
   },
   {
@@ -113,7 +114,7 @@ let productos = [
     categoria: "Rascador",
     cantidad: 1,
     desc: "Este rascador para gatos está cubierto de felpa suave y cuenta con múltiples camas para que tu gato descanse cómodamente después de jugar.",
-    precio: 2900,
+    precio: 6100,
     img: "../img/Rascador5.jpg",
   },
   {
@@ -122,7 +123,7 @@ let productos = [
     categoria: "Rascador",
     cantidad: 1,
     desc: "Este rascador para gatos de gran tamaño está cubierto de felpa suave y ofrece una superficie amplia para que tu gato pueda rascar y jugar.",
-    precio: 7300,
+    precio: 5900,
     img: "../img/Rascador6.webp",
   },
   {
@@ -131,7 +132,7 @@ let productos = [
     categoria: "Rascador",
     cantidad: 1,
     desc: "Este rascador para gatos de cuatro pisos cuenta con dos camas suaves y múltiples superficies de rascado para que tu gato se divierta y descanse.",
-    precio: 2900,
+    precio: 11200,
     img: "../img/Rascador7.jpg",
   },
   {
@@ -140,7 +141,7 @@ let productos = [
     categoria: "Rascador",
     cantidad: 1,
     desc: "Este rascador para gatos cuenta con plumas y bolitas de lana colgantes que mantendrán a tu gato entretenido y feliz durante horas.",
-    precio: 7300,
+    precio: 3900,
     img: "../img/Rascador8.jpg",
   },
   {
@@ -158,7 +159,7 @@ let productos = [
     categoria: "Juguete",
     cantidad: 1,
     desc: "Si estás buscando un juguete para tu perro que sea resistente y duradero, este hueso grande es una excelente opción.",
-    precio: 800,
+    precio: 1000,
     img: "../img/Juguete2.jpg",
   },
   {
@@ -167,7 +168,7 @@ let productos = [
     categoria: "Juguete",
     cantidad: 1,
     desc: "Si tu gato es fanático de las plumas, esta caña es perfecta para él.  la caña está diseñada para ser resistente y duradera, por lo que podrás usarla por mucho tiempo.",
-    precio: 1000,
+    precio: 950,
     img: "../img/Juguete3.webp",
   },
   {
@@ -176,7 +177,7 @@ let productos = [
     categoria: "Juguete",
     cantidad: 1,
     desc: "Este juguete es ideal para aquellos gatos que aman cazar ratones, simula los movimientos de un ratón real, lo que mantendrá a tu gato entretenido y en forma.",
-    precio: 2450,
+    precio: 2650,
     img: "../img/Juguete4.webp",
   },
   {
@@ -185,7 +186,7 @@ let productos = [
     categoria: "Juguete",
     cantidad: 1,
     desc: "Estas bolitas giratorias y ratones con resorte son una excelente opción para estimular el instinto cazador de tu gato. ",
-    precio: 1800,
+    precio: 2600,
     img: "../img/Juguete5.jpg",
   },
   {
@@ -194,7 +195,7 @@ let productos = [
     categoria: "Juguete",
     cantidad: 1,
     desc: "Esta bola está diseñada para ser resistente y duradera, por lo que podrás jugar con tu perro durante mucho tiempo.",
-    precio: 800,
+    precio: 1300,
     img: "../img/Juguete6.jpg",
   },
   {
@@ -212,20 +213,13 @@ let productos = [
     categoria: "Juguete",
     cantidad: 1,
     desc: "Estas pelotitas están diseñadas con plumas y materiales de alta calidad para mantener a tu gato activo y feliz",
-    precio: 2450,
+    precio: 850,
     img: "../img/Juguete8.jpg",
   },
 ];
 
 // Convertir a JSON y guardar en Local Storage
-localStorage.setItem("productos", JSON.stringify(productos));
-
- 
-
-
-
-
-
-
-
-
+window.onload = function () {
+  localStorage.setItem("productos", JSON.stringify(productos));
+  console.log("hola pato")
+};
