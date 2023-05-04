@@ -160,11 +160,9 @@ window.addEventListener("load", () => {
         <p class="precio"><span>Precio: ${productos[i].precio}$</span>
         </p> Existencia: ${productos[i].cantidad}<p></p></div></div>`;
   }
-  const cerrarSesionBtn = document.getElementById("botonCerrarSesion");
 
-// Agregar un evento de escucha de clic al botón
+  const cerrarSesionBtn = document.getElementById("botonCerrarSesion");
 cerrarSesionBtn.addEventListener("click", function() {
-  // Redirigir al usuario a la página inicial
   location.href = "login.html";
 });
 });
