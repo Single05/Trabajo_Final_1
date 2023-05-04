@@ -11,7 +11,7 @@ login.addEventListener ("submit", (e) => {
    }
    alert (`Bienvenido ${validUser.name}`)
    localStorage.setItem("login_success", JSON.stringify(validUser))
-   window.location.href = "index.html"
+   window.location.href = "http://127.0.0.1:5500/index.html"
   })
 
   
@@ -25,6 +25,7 @@ botonCheck.addEventListener('click', () => {
   
     if (clave === ClaveSecreta) {
       alert('¡Clave correcta! Bienvenido.');
+      window.location.href = "admin.html";
     } else {
       alert('Clave incorrecta. Acceso denegado.');
       botonCheck.checked = false; 
