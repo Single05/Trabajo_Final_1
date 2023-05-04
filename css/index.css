@@ -229,6 +229,17 @@ ul .dropdown-menu {
   margin-bottom: 30px;
   height: 100%;
 }
+/* _____________________ */
+
+#card_de_productos{
+  max-height: 700px !important;
+  min-width:750px !important;
+  display: flex !important;
+  flex-direction: row!important;
+  justify-content: center !important;
+  padding: 25px !important;
+  margin: 25px !important;
+}
 
 .product-item img {
   max-width: 100%;
@@ -266,7 +277,7 @@ ul .dropdown-menu {
 .featured-products .row .col-12:not(:last-child),
 .featured-products .row .col-md-6:not(:last-child),
 .featured-products .row .col-lg-4:not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .featured-products .row {
