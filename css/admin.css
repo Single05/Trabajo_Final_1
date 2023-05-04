@@ -171,3 +171,18 @@ option{
 .noExsiteError::after {
     content: 'Este elemento no existe';
 }
+#botonCerrarSesion {
+    margin: 40px;
+    height: 60px;
+    width: 200px;
+    border-radius: 7px;
+    border: none;
+    color: rgb(107, 104, 104);
+    position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#botonCerrarSesion:hover {
+    opacity: 0.7;
+}
