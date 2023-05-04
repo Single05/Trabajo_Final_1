@@ -1,8 +1,13 @@
-import { productos } from "./stock";
+import { productos } from "./stock.js";
   console.log (productos);
+  window.onload = function() {
+    localStorage.getItem("productos", JSON.stringify(productos));
+    console.log ("estamos en el localstorage");
+    }
   
 function guardarAlmacenamientoLocal(llave, valor_a_guardar) {
   localStorage.setItem(llave, JSON.stringify(valor_a_guardar));
+  
 }
 function obtenerAlmacenamientoLocal(llave) {
   const datos = JSON.parse(localStorage.getItem(llave));

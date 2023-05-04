@@ -1,4 +1,5 @@
-export let productos = [
+
+ let productos = [
   {
   id: 1,
   nombre: "Alimento Shulet Carassius para peces",
@@ -221,8 +222,9 @@ export let productos = [
 window.onload = function() {
   localStorage.setItem("productos", JSON.stringify(productos));
   }
+  export{productos};
   
-
+  
  
 
 
