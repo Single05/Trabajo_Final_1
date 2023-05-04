@@ -1,85 +1,85 @@
 
  let productos = [
   {
-  id: 1,
-  nombre: "Alimento Shulet Carassius para peces",
-  categoria: "Alimento",
-  cantidad: 1,
-  desc: "Alimento balanceado de alta calidad para peces Carassius, de la marca Shulet.",
-  precio: 1800,
-  img: "../img/Alimento.webp",
+    id: 1,
+    nombre: "Alimento Shulet Carassius para peces",
+    categoria: "Alimento",
+    cantidad: 1,
+    desc: "Alimento balanceado de alta calidad para peces Carassius, de la marca Shulet.",
+    precio: 1800,
+    img: "../img/Alimento.webp",
   },
   {
-  id: 2,
-  nombre: "Alimento Proplan para perro adulto",
-  categoria: "Alimento",
-  cantidad: 1,
-  desc: "Alimento balanceado de alta calidad para perros adultos, de la marca Proplan.",
-  precio: 2900,
-  img: "../img/Alimento2.webp",
+    id: 2,
+    nombre: "Alimento Proplan para perro adulto",
+    categoria: "Alimento",
+    cantidad: 1,
+    desc: "Alimento balanceado de alta calidad para perros adultos, de la marca Proplan.",
+    precio: 2900,
+    img: "../img/Alimento2.webp",
   },
   {
-  id: 3,
-  nombre: "Alimento Whiskas para gatitos",
-  categoria: "Alimento",
-  cantidad: 1,
-  desc: "Alimento balanceado de alta calidad para gatitos, de la marca Whiskas.",
-  precio: 2500,
-  img: "../img/Alimento3.png",
+    id: 3,
+    nombre: "Alimento Whiskas para gatitos",
+    categoria: "Alimento",
+    cantidad: 1,
+    desc: "Alimento balanceado de alta calidad para gatitos, de la marca Whiskas.",
+    precio: 2500,
+    img: "../img/Alimento3.png",
   },
   {
-  id: 4,
-  nombre: "Alimento Agility para perro adulto",
-  categoria: "Alimento",
-  cantidad: 1,
-  desc: "Alimento balanceado de alta calidad para perros adultos, de la marca Agility.",
-  precio: 3150,
-  img: "../img/Alimento4.png",
+    id: 4,
+    nombre: "Alimento Agility para perro adulto",
+    categoria: "Alimento",
+    cantidad: 1,
+    desc: "Alimento balanceado de alta calidad para perros adultos, de la marca Agility.",
+    precio: 3150,
+    img: "../img/Alimento4.png",
   },
   {
-  id: 5,
-  nombre: "Bocaditos Tasty Snack para gato",
-  categoria: "Alimento",
-  cantidad: 1,
-  desc: "Alimento complementario para gatos, compuesto por deliciosos bocaditos de la marca Tasty Snack.",
-  precio: 1300,
-  img: "../img/Alimento5.png",
+    id: 5,
+    nombre: "Bocaditos Tasty Snack para gato",
+    categoria: "Alimento",
+    cantidad: 1,
+    desc: "Alimento complementario para gatos, compuesto por deliciosos bocaditos de la marca Tasty Snack.",
+    precio: 1300,
+    img: "../img/Alimento5.png",
   },
   {
-  id: 6,
-  nombre: "Alimento Royal Canin para perro",
-  categoria: "Alimento",
-  cantidad: 1,
-  desc: "Alimento balanceado de alta calidad para perros adultos, de la marca Royal Canin.",
-  precio: 3550,
-  img: "../img/Alimento6.webp",
+    id: 6,
+    nombre: "Alimento Royal Canin para perro",
+    categoria: "Alimento",
+    cantidad: 1,
+    desc: "Alimento balanceado de alta calidad para perros adultos, de la marca Royal Canin.",
+    precio: 3550,
+    img: "../img/Alimento6.webp",
   },
   {
-  id: 7,
-  nombre: "Alimento Advance para perro adulto",
-  categoria: "Alimento",
-  cantidad: 1,
-  desc: "Alimento balanceado de alta calidad para perros adultos, de la marca Advance.",
-  precio: 2950,
-  img: "../img/Alimento7.png",
+    id: 7,
+    nombre: "Alimento Advance para perro adulto",
+    categoria: "Alimento",
+    cantidad: 1,
+    desc: "Alimento balanceado de alta calidad para perros adultos, de la marca Advance.",
+    precio: 2950,
+    img: "../img/Alimento7.png",
   },
   {
-  id: 8,
-  nombre: "Alimento Excellent para gato",
-  categoria: "Alimento",
-  cantidad: 1,
-  desc: "Alimento balanceado de alta calidad para gatos adultos, de la marca Purina.",
-  precio: 2860,
-  img: "../img/Alimento8.webp",
+    id: 8,
+    nombre: "Alimento Excellent para gato",
+    categoria: "Alimento",
+    cantidad: 1,
+    desc: "Alimento balanceado de alta calidad para gatos adultos, de la marca Purina.",
+    precio: 2860,
+    img: "../img/Alimento8.webp",
   },
   {
-  id: 9,
-  nombre: "Rascador de felpa para gatos",
-  categoria: "Rascador",
-  cantidad: 1,
-  desc: "Rascador para gatos de alta calidad, cubierto de suave felpa para brindar mayor comodidad y diversión.",
-  precio: 4800,
-  img: "../img/Rascador.jpg",
+    id: 9,
+    nombre: "Rascador de felpa para gatos",
+    categoria: "Rascador",
+    cantidad: 1,
+    desc: "Rascador para gatos de alta calidad, cubierto de suave felpa para brindar mayor comodidad y diversión.",
+    precio: 4800,
+    img: "../img/Rascador.jpg",
   },
   {
     id: 10,
@@ -219,18 +219,6 @@
 ];
 
 // Convertir a JSON y guardar en Local Storage
-window.onload = function() {
+window.onload = function () {
   localStorage.setItem("productos", JSON.stringify(productos));
-  }
-  export{productos};
-  
-  
- 
-
-
-
-
-
-
-
-
+}

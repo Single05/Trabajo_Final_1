@@ -1,10 +1,3 @@
-import { productos } from "./stock.js";
-  console.log (productos);
-  window.onload = function() {
-    localStorage.getItem("productos", JSON.stringify(productos));
-    console.log ("estamos en el localstorage");
-    }
-  
 function guardarAlmacenamientoLocal(llave, valor_a_guardar) {
   localStorage.setItem(llave, JSON.stringify(valor_a_guardar));
   
@@ -14,7 +7,7 @@ function obtenerAlmacenamientoLocal(llave) {
   return datos;
 }
 
-let productos = obtenerAlmacenamientoLocal("productos") || [];
+
 let mensaje = document.getElementById("mensaje");
 
 //Añadir un producto
@@ -162,10 +155,10 @@ window.addEventListener("load", () => {
   mostraProductos.innerHTML = "";
   for (let i = 0; i < productos.length; i++) {
     mostraProductos.innerHTML += `<div class="contenedorProductos">
-        <img src="${productos[i].urlImagen}">
+        <img src="${productos[i].img}">
         <div class="informacion"><p>${productos[i].nombre}</p>
-        <p class="precio"><span>Precio: ${productos[i].valor}$</span>
-        </p> Existencia: ${productos[i].existencia}<p></p></div></div>`;
+        <p class="precio"><span>Precio: ${productos[i].precio}$</span>
+        </p> Existencia: ${productos[i].cantidad}<p></p></div></div>`;
   }
   
 });
