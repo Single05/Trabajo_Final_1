@@ -15,8 +15,11 @@ registro.addEventListener("submit", (e) => {
     return alert ("las contraseñas no coinciden")  
   }
   users.push ({name: name, email: email, contraseña: contraseña})
+  window.onload = function () {
   localStorage.setItem("users", JSON.stringify(users))
   alert ("Registro exitoso")
- 
+  }
 //redireccion a login
+
+window.location.href = "login.html";
 })
