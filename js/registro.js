@@ -19,6 +19,6 @@ registro.addEventListener("submit", (e) => {
     localStorage.setItem("users", JSON.stringify(users));
     alert("Registro exitoso");
   };
-  //redireccion a login
   window.location.href = "login.html";
+  //redireccion a login
 });
